@@ -89,7 +89,7 @@ namespace ISK
 
         private static IEnumerable<GraphNode> CreateNodes()
         {
-            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_500_70.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_100_10.txt");
 
             // Skip first line
             var lines = File.ReadLines(path).Skip(1).ToList();

@@ -1,0 +1,608 @@
+Generation: 1, Fitness: 0.142857142857143
+Generation: 2, Fitness: 0.142857142857143
+Generation: 3, Fitness: 0.142857142857143
+Generation: 4, Fitness: 0.142857142857143
+Generation: 5, Fitness: 0.142857142857143
+Generation: 6, Fitness: 0.142857142857143
+Generation: 7, Fitness: 0.142857142857143
+Generation: 8, Fitness: 0.142857142857143
+Generation: 9, Fitness: 0.142857142857143
+Generation: 10, Fitness: 0.142857142857143
+Generation: 11, Fitness: 0.142857142857143
+Generation: 12, Fitness: 0.142857142857143
+Generation: 13, Fitness: 0.142857142857143
+Generation: 14, Fitness: 0.142857142857143
+Generation: 15, Fitness: 0.142857142857143
+Generation: 16, Fitness: 0.142857142857143
+Generation: 17, Fitness: 0.142857142857143
+Generation: 18, Fitness: 0.142857142857143
+Generation: 19, Fitness: 0.142857142857143
+Generation: 20, Fitness: 0.142857142857143
+Generation: 21, Fitness: 0.142857142857143
+Generation: 22, Fitness: 0.142857142857143
+Generation: 23, Fitness: 0.142857142857143
+Generation: 24, Fitness: 0.142857142857143
+Generation: 25, Fitness: 0.142857142857143
+Generation: 26, Fitness: 0.142857142857143
+Generation: 27, Fitness: 0.142857142857143
+Generation: 28, Fitness: 0.142857142857143
+Generation: 29, Fitness: 0.142857142857143
+Generation: 30, Fitness: 0.142857142857143
+Generation: 31, Fitness: 0.142857142857143
+Generation: 32, Fitness: 0.142857142857143
+Generation: 33, Fitness: 0.142857142857143
+Generation: 34, Fitness: 0.142857142857143
+Generation: 35, Fitness: 0.142857142857143
+Generation: 36, Fitness: 0.142857142857143
+Generation: 37, Fitness: 0.142857142857143
+Generation: 38, Fitness: 0.142857142857143
+Generation: 39, Fitness: 0.142857142857143
+Generation: 40, Fitness: 0.142857142857143
+Generation: 41, Fitness: 0.142857142857143
+Generation: 42, Fitness: 0.142857142857143
+Generation: 43, Fitness: 0.142857142857143
+Generation: 44, Fitness: 0.142857142857143
+Generation: 45, Fitness: 0.142857142857143
+Generation: 46, Fitness: 0.142857142857143
+Generation: 47, Fitness: 0.142857142857143
+Generation: 48, Fitness: 0.142857142857143
+Generation: 49, Fitness: 0.142857142857143
+Generation: 50, Fitness: 0.142857142857143
+Generation: 51, Fitness: 0.142857142857143
+Generation: 52, Fitness: 0.142857142857143
+Generation: 53, Fitness: 0.142857142857143
+Generation: 54, Fitness: 0.142857142857143
+Generation: 55, Fitness: 0.142857142857143
+Generation: 56, Fitness: 0.142857142857143
+Generation: 57, Fitness: 0.142857142857143
+Generation: 58, Fitness: 0.142857142857143
+Generation: 59, Fitness: 0.142857142857143
+Generation: 60, Fitness: 0.142857142857143
+Generation: 61, Fitness: 0.142857142857143
+Generation: 62, Fitness: 0.142857142857143
+Generation: 63, Fitness: 0.142857142857143
+Generation: 64, Fitness: 0.142857142857143
+Generation: 65, Fitness: 0.142857142857143
+Generation: 66, Fitness: 0.142857142857143
+Generation: 67, Fitness: 0.142857142857143
+Generation: 68, Fitness: 0.142857142857143
+Generation: 69, Fitness: 0.142857142857143
+Generation: 70, Fitness: 0.142857142857143
+Generation: 71, Fitness: 0.142857142857143
+Generation: 72, Fitness: 0.142857142857143
+Generation: 73, Fitness: 0.142857142857143
+Generation: 74, Fitness: 0.142857142857143
+Generation: 75, Fitness: 0.142857142857143
+Generation: 76, Fitness: 0.142857142857143
+Generation: 77, Fitness: 0.142857142857143
+Generation: 78, Fitness: 0.142857142857143
+Generation: 79, Fitness: 0.142857142857143
+Generation: 80, Fitness: 0.142857142857143
+Generation: 81, Fitness: 0.142857142857143
+Generation: 82, Fitness: 0.142857142857143
+Generation: 83, Fitness: 0.142857142857143
+Generation: 84, Fitness: 0.142857142857143
+Generation: 85, Fitness: 0.142857142857143
+Generation: 86, Fitness: 0.142857142857143
+Generation: 87, Fitness: 0.142857142857143
+Generation: 88, Fitness: 0.142857142857143
+Generation: 89, Fitness: 0.142857142857143
+Generation: 90, Fitness: 0.142857142857143
+Generation: 91, Fitness: 0.142857142857143
+Generation: 92, Fitness: 0.142857142857143
+Generation: 93, Fitness: 0.142857142857143
+Generation: 94, Fitness: 0.142857142857143
+Generation: 95, Fitness: 0.142857142857143
+Generation: 96, Fitness: 0.142857142857143
+Generation: 97, Fitness: 0.142857142857143
+Generation: 98, Fitness: 0.142857142857143
+Generation: 99, Fitness: 0.142857142857143
+Generation: 100, Fitness: 0.142857142857143
+Generation: 101, Fitness: 0.142857142857143
+Generation: 102, Fitness: 0.142857142857143
+Generation: 103, Fitness: 0.142857142857143
+Generation: 104, Fitness: 0.142857142857143
+Generation: 105, Fitness: 0.142857142857143
+Generation: 106, Fitness: 0.142857142857143
+Generation: 107, Fitness: 0.142857142857143
+Generation: 108, Fitness: 0.142857142857143
+Generation: 109, Fitness: 0.142857142857143
+Generation: 110, Fitness: 0.142857142857143
+Generation: 111, Fitness: 0.142857142857143
+Generation: 112, Fitness: 0.142857142857143
+Generation: 113, Fitness: 0.142857142857143
+Generation: 114, Fitness: 0.142857142857143
+Generation: 115, Fitness: 0.142857142857143
+Generation: 116, Fitness: 0.142857142857143
+Generation: 117, Fitness: 0.142857142857143
+Generation: 118, Fitness: 0.142857142857143
+Generation: 119, Fitness: 0.142857142857143
+Generation: 120, Fitness: 0.142857142857143
+Generation: 121, Fitness: 0.142857142857143
+Generation: 122, Fitness: 0.142857142857143
+Generation: 123, Fitness: 0.142857142857143
+Generation: 124, Fitness: 0.142857142857143
+Generation: 125, Fitness: 0.142857142857143
+Generation: 126, Fitness: 0.142857142857143
+Generation: 127, Fitness: 0.142857142857143
+Generation: 128, Fitness: 0.142857142857143
+Generation: 129, Fitness: 0.142857142857143
+Generation: 130, Fitness: 0.142857142857143
+Generation: 131, Fitness: 0.142857142857143
+Generation: 132, Fitness: 0.142857142857143
+Generation: 133, Fitness: 0.142857142857143
+Generation: 134, Fitness: 0.142857142857143
+Generation: 135, Fitness: 0.142857142857143
+Generation: 136, Fitness: 0.142857142857143
+Generation: 137, Fitness: 0.142857142857143
+Generation: 138, Fitness: 0.142857142857143
+Generation: 139, Fitness: 0.142857142857143
+Generation: 140, Fitness: 0.142857142857143
+Generation: 141, Fitness: 0.142857142857143
+Generation: 142, Fitness: 0.142857142857143
+Generation: 143, Fitness: 0.142857142857143
+Generation: 144, Fitness: 0.142857142857143
+Generation: 145, Fitness: 0.142857142857143
+Generation: 146, Fitness: 0.142857142857143
+Generation: 147, Fitness: 0.142857142857143
+Generation: 148, Fitness: 0.142857142857143
+Generation: 149, Fitness: 0.142857142857143
+Generation: 150, Fitness: 0.142857142857143
+Generation: 151, Fitness: 0.142857142857143
+Generation: 152, Fitness: 0.142857142857143
+Generation: 153, Fitness: 0.142857142857143
+Generation: 154, Fitness: 0.142857142857143
+Generation: 155, Fitness: 0.142857142857143
+Generation: 156, Fitness: 0.142857142857143
+Generation: 157, Fitness: 0.142857142857143
+Generation: 158, Fitness: 0.142857142857143
+Generation: 159, Fitness: 0.142857142857143
+Generation: 160, Fitness: 0.142857142857143
+Generation: 161, Fitness: 0.142857142857143
+Generation: 162, Fitness: 0.142857142857143
+Generation: 163, Fitness: 0.142857142857143
+Generation: 164, Fitness: 0.142857142857143
+Generation: 165, Fitness: 0.142857142857143
+Generation: 166, Fitness: 0.142857142857143
+Generation: 167, Fitness: 0.142857142857143
+Generation: 168, Fitness: 0.142857142857143
+Generation: 169, Fitness: 0.142857142857143
+Generation: 170, Fitness: 0.142857142857143
+Generation: 171, Fitness: 0.142857142857143
+Generation: 172, Fitness: 0.142857142857143
+Generation: 173, Fitness: 0.142857142857143
+Generation: 174, Fitness: 0.142857142857143
+Generation: 175, Fitness: 0.142857142857143
+Generation: 176, Fitness: 0.142857142857143
+Generation: 177, Fitness: 0.142857142857143
+Generation: 178, Fitness: 0.142857142857143
+Generation: 179, Fitness: 0.142857142857143
+Generation: 180, Fitness: 0.142857142857143
+Generation: 181, Fitness: 0.142857142857143
+Generation: 182, Fitness: 0.142857142857143
+Generation: 183, Fitness: 0.142857142857143
+Generation: 184, Fitness: 0.142857142857143
+Generation: 185, Fitness: 0.142857142857143
+Generation: 186, Fitness: 0.142857142857143
+Generation: 187, Fitness: 0.142857142857143
+Generation: 188, Fitness: 0.142857142857143
+Generation: 189, Fitness: 0.142857142857143
+Generation: 190, Fitness: 0.142857142857143
+Generation: 191, Fitness: 0.142857142857143
+Generation: 192, Fitness: 0.142857142857143
+Generation: 193, Fitness: 0.142857142857143
+Generation: 194, Fitness: 0.142857142857143
+Generation: 195, Fitness: 0.142857142857143
+Generation: 196, Fitness: 0.142857142857143
+Generation: 197, Fitness: 0.142857142857143
+Generation: 198, Fitness: 0.142857142857143
+Generation: 199, Fitness: 0.142857142857143
+Generation: 200, Fitness: 0.142857142857143
+Generation: 201, Fitness: 0.142857142857143
+Generation: 202, Fitness: 0.142857142857143
+Generation: 203, Fitness: 0.142857142857143
+Generation: 204, Fitness: 0.142857142857143
+Generation: 205, Fitness: 0.142857142857143
+Generation: 206, Fitness: 0.142857142857143
+Generation: 207, Fitness: 0.142857142857143
+Generation: 208, Fitness: 0.142857142857143
+Generation: 209, Fitness: 0.142857142857143
+Generation: 210, Fitness: 0.142857142857143
+Generation: 211, Fitness: 0.142857142857143
+Generation: 212, Fitness: 0.142857142857143
+Generation: 213, Fitness: 0.142857142857143
+Generation: 214, Fitness: 0.142857142857143
+Generation: 215, Fitness: 0.142857142857143
+Generation: 216, Fitness: 0.142857142857143
+Generation: 217, Fitness: 0.142857142857143
+Generation: 218, Fitness: 0.142857142857143
+Generation: 219, Fitness: 0.142857142857143
+Generation: 220, Fitness: 0.142857142857143
+Generation: 221, Fitness: 0.142857142857143
+Generation: 222, Fitness: 0.142857142857143
+Generation: 223, Fitness: 0.142857142857143
+Generation: 224, Fitness: 0.142857142857143
+Generation: 225, Fitness: 0.142857142857143
+Generation: 226, Fitness: 0.142857142857143
+Generation: 227, Fitness: 0.142857142857143
+Generation: 228, Fitness: 0.142857142857143
+Generation: 229, Fitness: 0.142857142857143
+Generation: 230, Fitness: 0.142857142857143
+Generation: 231, Fitness: 0.142857142857143
+Generation: 232, Fitness: 0.142857142857143
+Generation: 233, Fitness: 0.142857142857143
+Generation: 234, Fitness: 0.142857142857143
+Generation: 235, Fitness: 0.142857142857143
+Generation: 236, Fitness: 0.142857142857143
+Generation: 237, Fitness: 0.142857142857143
+Generation: 238, Fitness: 0.142857142857143
+Generation: 239, Fitness: 0.142857142857143
+Generation: 240, Fitness: 0.142857142857143
+Generation: 241, Fitness: 0.142857142857143
+Generation: 242, Fitness: 0.142857142857143
+Generation: 243, Fitness: 0.142857142857143
+Generation: 244, Fitness: 0.142857142857143
+Generation: 245, Fitness: 0.142857142857143
+Generation: 246, Fitness: 0.142857142857143
+Generation: 247, Fitness: 0.142857142857143
+Generation: 248, Fitness: 0.142857142857143
+Generation: 249, Fitness: 0.142857142857143
+Generation: 250, Fitness: 0.142857142857143
+Generation: 251, Fitness: 0.142857142857143
+Generation: 252, Fitness: 0.142857142857143
+Generation: 253, Fitness: 0.142857142857143
+Generation: 254, Fitness: 0.142857142857143
+Generation: 255, Fitness: 0.142857142857143
+Generation: 256, Fitness: 0.142857142857143
+Generation: 257, Fitness: 0.142857142857143
+Generation: 258, Fitness: 0.142857142857143
+Generation: 259, Fitness: 0.142857142857143
+Generation: 260, Fitness: 0.142857142857143
+Generation: 261, Fitness: 0.142857142857143
+Generation: 262, Fitness: 0.142857142857143
+Generation: 263, Fitness: 0.142857142857143
+Generation: 264, Fitness: 0.142857142857143
+Generation: 265, Fitness: 0.142857142857143
+Generation: 266, Fitness: 0.142857142857143
+Generation: 267, Fitness: 0.142857142857143
+Generation: 268, Fitness: 0.142857142857143
+Generation: 269, Fitness: 0.142857142857143
+Generation: 270, Fitness: 0.142857142857143
+Generation: 271, Fitness: 0.142857142857143
+Generation: 272, Fitness: 0.142857142857143
+Generation: 273, Fitness: 0.142857142857143
+Generation: 274, Fitness: 0.142857142857143
+Generation: 275, Fitness: 0.142857142857143
+Generation: 276, Fitness: 0.142857142857143
+Generation: 277, Fitness: 0.142857142857143
+Generation: 278, Fitness: 0.142857142857143
+Generation: 279, Fitness: 0.142857142857143
+Generation: 280, Fitness: 0.142857142857143
+Generation: 281, Fitness: 0.142857142857143
+Generation: 282, Fitness: 0.142857142857143
+Generation: 283, Fitness: 0.142857142857143
+Generation: 284, Fitness: 0.142857142857143
+Generation: 285, Fitness: 0.142857142857143
+Generation: 286, Fitness: 0.142857142857143
+Generation: 287, Fitness: 0.142857142857143
+Generation: 288, Fitness: 0.142857142857143
+Generation: 289, Fitness: 0.142857142857143
+Generation: 290, Fitness: 0.142857142857143
+Generation: 291, Fitness: 0.142857142857143
+Generation: 292, Fitness: 0.142857142857143
+Generation: 293, Fitness: 0.142857142857143
+Generation: 294, Fitness: 0.142857142857143
+Generation: 295, Fitness: 0.142857142857143
+Generation: 296, Fitness: 0.142857142857143
+Generation: 297, Fitness: 0.142857142857143
+Generation: 298, Fitness: 0.142857142857143
+Generation: 299, Fitness: 0.142857142857143
+Generation: 300, Fitness: 0.142857142857143
+Generation: 301, Fitness: 0.142857142857143
+Generation: 302, Fitness: 0.142857142857143
+Generation: 303, Fitness: 0.142857142857143
+Generation: 304, Fitness: 0.142857142857143
+Generation: 305, Fitness: 0.142857142857143
+Generation: 306, Fitness: 0.142857142857143
+Generation: 307, Fitness: 0.142857142857143
+Generation: 308, Fitness: 0.142857142857143
+Generation: 309, Fitness: 0.142857142857143
+Generation: 310, Fitness: 0.142857142857143
+Generation: 311, Fitness: 0.142857142857143
+Generation: 312, Fitness: 0.142857142857143
+Generation: 313, Fitness: 0.142857142857143
+Generation: 314, Fitness: 0.142857142857143
+Generation: 315, Fitness: 0.142857142857143
+Generation: 316, Fitness: 0.142857142857143
+Generation: 317, Fitness: 0.142857142857143
+Generation: 318, Fitness: 0.142857142857143
+Generation: 319, Fitness: 0.142857142857143
+Generation: 320, Fitness: 0.142857142857143
+Generation: 321, Fitness: 0.142857142857143
+Generation: 322, Fitness: 0.142857142857143
+Generation: 323, Fitness: 0.142857142857143
+Generation: 324, Fitness: 0.142857142857143
+Generation: 325, Fitness: 0.142857142857143
+Generation: 326, Fitness: 0.142857142857143
+Generation: 327, Fitness: 0.142857142857143
+Generation: 328, Fitness: 0.142857142857143
+Generation: 329, Fitness: 0.142857142857143
+Generation: 330, Fitness: 0.142857142857143
+Generation: 331, Fitness: 0.142857142857143
+Generation: 332, Fitness: 0.142857142857143
+Generation: 333, Fitness: 0.142857142857143
+Generation: 334, Fitness: 0.142857142857143
+Generation: 335, Fitness: 0.142857142857143
+Generation: 336, Fitness: 0.142857142857143
+Generation: 337, Fitness: 0.142857142857143
+Generation: 338, Fitness: 0.142857142857143
+Generation: 339, Fitness: 0.142857142857143
+Generation: 340, Fitness: 0.142857142857143
+Generation: 341, Fitness: 0.142857142857143
+Generation: 342, Fitness: 0.142857142857143
+Generation: 343, Fitness: 0.142857142857143
+Generation: 344, Fitness: 0.142857142857143
+Generation: 345, Fitness: 0.142857142857143
+Generation: 346, Fitness: 0.142857142857143
+Generation: 347, Fitness: 0.142857142857143
+Generation: 348, Fitness: 0.142857142857143
+Generation: 349, Fitness: 0.142857142857143
+Generation: 350, Fitness: 0.142857142857143
+Generation: 351, Fitness: 0.142857142857143
+Generation: 352, Fitness: 0.142857142857143
+Generation: 353, Fitness: 0.142857142857143
+Generation: 354, Fitness: 0.142857142857143
+Generation: 355, Fitness: 0.142857142857143
+Generation: 356, Fitness: 0.142857142857143
+Generation: 357, Fitness: 0.142857142857143
+Generation: 358, Fitness: 0.142857142857143
+Generation: 359, Fitness: 0.142857142857143
+Generation: 360, Fitness: 0.142857142857143
+Generation: 361, Fitness: 0.142857142857143
+Generation: 362, Fitness: 0.142857142857143
+Generation: 363, Fitness: 0.142857142857143
+Generation: 364, Fitness: 0.142857142857143
+Generation: 365, Fitness: 0.142857142857143
+Generation: 366, Fitness: 0.142857142857143
+Generation: 367, Fitness: 0.142857142857143
+Generation: 368, Fitness: 0.142857142857143
+Generation: 369, Fitness: 0.142857142857143
+Generation: 370, Fitness: 0.142857142857143
+Generation: 371, Fitness: 0.142857142857143
+Generation: 372, Fitness: 0.142857142857143
+Generation: 373, Fitness: 0.142857142857143
+Generation: 374, Fitness: 0.142857142857143
+Generation: 375, Fitness: 0.142857142857143
+Generation: 376, Fitness: 0.142857142857143
+Generation: 377, Fitness: 0.142857142857143
+Generation: 378, Fitness: 0.142857142857143
+Generation: 379, Fitness: 0.142857142857143
+Generation: 380, Fitness: 0.142857142857143
+Generation: 381, Fitness: 0.142857142857143
+Generation: 382, Fitness: 0.142857142857143
+Generation: 383, Fitness: 0.142857142857143
+Generation: 384, Fitness: 0.142857142857143
+Generation: 385, Fitness: 0.142857142857143
+Generation: 386, Fitness: 0.142857142857143
+Generation: 387, Fitness: 0.142857142857143
+Generation: 388, Fitness: 0.142857142857143
+Generation: 389, Fitness: 0.142857142857143
+Generation: 390, Fitness: 0.142857142857143
+Generation: 391, Fitness: 0.142857142857143
+Generation: 392, Fitness: 0.142857142857143
+Generation: 393, Fitness: 0.142857142857143
+Generation: 394, Fitness: 0.142857142857143
+Generation: 395, Fitness: 0.142857142857143
+Generation: 396, Fitness: 0.142857142857143
+Generation: 397, Fitness: 0.142857142857143
+Generation: 398, Fitness: 0.142857142857143
+Generation: 399, Fitness: 0.142857142857143
+Generation: 400, Fitness: 0.142857142857143
+Generation: 401, Fitness: 0.142857142857143
+77
+29
+10
+23
+79
+75
+70
+30
+38
+2
+67
+72
+44
+92
+97
+27
+90
+31
+33
+32
+96
+48
+26
+4
+91
+82
+76
+1
+11
+66
+54
+46
+28
+84
+15
+6
+85
+43
+80
+86
+17
+39
+83
+51
+68
+0
+65
+53
+20
+40
+14
+81
+35
+95
+36
+64
+42
+61
+63
+18
+74
+94
+19
+62
+25
+13
+3
+60
+24
+16
+5
+71
+78
+22
+50
+55
+58
+98
+12
+88
+73
+41
+99
+8
+45
+21
+59
+89
+87
+34
+93
+49
+7
+47
+37
+69
+57
+9
+52
+56
+SendingSequence:
+Round 1, fight!
+0 sends to 34,
+Round 2, fight!
+0 sends to 33,
+34 sends to 65,
+Round 3, fight!
+0 sends to 52,
+34 sends to 72,
+33 sends to 40,
+65 sends to 31,
+Round 4, fight!
+0 sends to 71,
+34 sends to 41,
+33 sends to 90,
+65 sends to 55,
+52 sends to 35,
+72 sends to 20,
+40 sends to 67,
+31 sends to 94,
+Round 5, fight!
+0 sends to 45,
+34 sends to 28,
+33 sends to 63,
+65 sends to 32,
+52 sends to 15,
+72 sends to 49,
+40 sends to 77,
+31 sends to 56,
+71 sends to 93,
+41 sends to 48,
+90 sends to 42,
+55 sends to 99,
+35 sends to 16,
+20 sends to 76,
+67 sends to 73,
+94 sends to 43,
+Round 6, fight!
+34 sends to 79,
+33 sends to 7,
+65 sends to 26,
+52 sends to 39,
+72 sends to 75,
+40 sends to 10,
+31 sends to 80,
+71 sends to 96,
+41 sends to 70,
+90 sends to 88,
+55 sends to 24,
+35 sends to 58,
+20 sends to 23,
+67 sends to 85,
+94 sends to 37,
+45 sends to 59,
+28 sends to 5,
+63 sends to 54,
+32 sends to 29,
+15 sends to 98,
+49 sends to 97,
+77 sends to 25,
+56 sends to 3,
+93 sends to 60,
+48 sends to 92,
+42 sends to 9,
+99 sends to 62,
+76 sends to 84,
+73 sends to 2,
+43 sends to 87,
+Round 7, fight!
+34 sends to 36,
+33 sends to 13,
+65 sends to 61,
+52 sends to 89,
+72 sends to 44,
+40 sends to 18,
+31 sends to 78,
+71 sends to 46,
+41 sends to 47,
+90 sends to 19,
+55 sends to 14,
+35 sends to 8,
+20 sends to 66,
+67 sends to 74,
+45 sends to 68,
+28 sends to 53,
+63 sends to 91,
+32 sends to 6,
+15 sends to 82,
+77 sends to 22,
+56 sends to 11,
+48 sends to 27,
+42 sends to 51,
+99 sends to 17,
+73 sends to 57,
+43 sends to 38,
+79 sends to 1,
+7 sends to 83,
+26 sends to 21,
+75 sends to 30,
+96 sends to 95,
+24 sends to 4,
+58 sends to 86,
+85 sends to 50,
+37 sends to 81,
+54 sends to 12,
+98 sends to 69,
+62 sends to 64,
