@@ -11,8 +11,12 @@ namespace ISK
 {
     internal class Program
     {
+        static string FilePath { get; set; }
+
         private static void Main(string[] args)
         {
+            FilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Results/", DateTime.Now.ToString("dd-hh-mm-ss") + ".txt");
+
             const int populationSize = 100;
 
             //get our nodes
@@ -71,21 +75,21 @@ namespace ISK
             var fittest = e.Population.GetTop(1)[0];
             foreach (var gene in fittest.Genes)
             {
-                Console.WriteLine(((GraphNode)gene.ObjectValue).Id);
+                Write(((GraphNode)gene.ObjectValue).Id);
             }
-            Console.WriteLine("SendingSequence:");
+            Write("SendingSequence:");
             printoutSequenceOfMessages(fittest);
         }
 
         private static void ga_OnGenerationComplete(object sender, GaEventArgs e)
         {
             var fittest = e.Population.GetTop(1)[0];
-            Console.WriteLine("Generation: {0}, Fitness: {1}", e.Generation, fittest.Fitness);
+            Write(String.Format("Generation: {0}, Fitness: {1}", e.Generation, fittest.Fitness));
         }
 
         private static IEnumerable<GraphNode> CreateNodes()
         {
-            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_100_50.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_500_70.txt");
 
             // Skip first line
             var lines = File.ReadLines(path).Skip(1).ToList();
@@ -140,7 +144,7 @@ namespace ISK
                 rounds++;
                 withoutMessage.Sort();
                 withoutMessage.Reverse(); ///// ??? got confused, not sure if needed
-                Console.WriteLine("Round {0}, fight!", rounds);
+                Write(String.Format("Round {0}, fight!", rounds));
                 foreach (GraphNode sender in withMessage)
                 {
                     foreach (GraphNode receiver in withoutMessage)
@@ -149,7 +153,7 @@ namespace ISK
                         {
                             receiving.Add(receiver);
                             withoutMessage.Remove(receiver);
-                            Console.WriteLine("{0} sends to {1},", sender.Id, receiver.Id);
+                            Write(String.Format("{0} sends to {1},", sender.Id, receiver.Id));
                             break;
                         }
                     }
@@ -157,6 +161,12 @@ namespace ISK
                 withMessage = withMessage.Concat(receiving).ToList();
             }
             
+        }
+
+        public static void Write(object line)
+        {
+            Console.WriteLine(line);
+            File.AppendAllLines(FilePath, new[] { line.ToString() });
         }
 
         public static double CalculateFitness(Chromosome chromosome)

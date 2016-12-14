@@ -61,7 +61,11 @@
     <Content Include="Generator\EdgeGraphDataGenerator.jar" />
     <Content Include="Graphs\Graph_100_50.txt" />
     <Content Include="Graphs\Graph_10_30.txt" />
+    <Content Include="Graphs\Graph_500_70.txt" />
     <Content Include="Graphs\Graph_50_60.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Results\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
