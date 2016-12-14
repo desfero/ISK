@@ -4,6 +4,8 @@ using System.Linq;
 using GAF;
 using GAF.Extensions;
 using GAF.Operators;
+using System.IO;
+using System.Reflection;
 
 namespace ISK
 {
@@ -13,8 +15,8 @@ namespace ISK
         {
             const int populationSize = 100;
 
-            //get our cities
-            var nodes = CreateNodes().ToList();
+            //get our nodes
+            var nodes = CreateNodes();
 
             var population = new Population();
 
@@ -83,98 +85,39 @@ namespace ISK
 
         private static IEnumerable<GraphNode> CreateNodes()
         {
-            var nodes = new List<GraphNode>();
-            var n1 = new GraphNode(1, true);
-            nodes.Add(n1);
-            var n2 = new GraphNode(2, false);
-            nodes.Add(n2);
-            var n3 = new GraphNode(3, false);
-            nodes.Add(n3);
-            var n4 = new GraphNode(4, false);
-            nodes.Add(n4);
-            var n5 = new GraphNode(5, false);
-            nodes.Add(n5);
-            var n6 = new GraphNode(6, false);
-            nodes.Add(n6);
-            var n7 = new GraphNode(7, false);
-            nodes.Add(n7);
-            var n8 = new GraphNode(8, false);
-            nodes.Add(n8);
-            var n9 = new GraphNode(9, false);
-            nodes.Add(n9);
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_100_50.txt");
 
-            var n10 = new GraphNode(10, false);
-            nodes.Add(n10);
+            // Skip first line
+            var lines = File.ReadLines(path).Skip(1).ToList();
+            var nodes = new Dictionary<int, GraphNode>();
 
-            var n11 = new GraphNode(11, false);
-            nodes.Add(n11);
+            foreach (var line in lines.Skip(1))
+            {
+                var node1Index = int.Parse(line.Split(' ')[1]);
+                var node2Index = int.Parse(line.Split(' ')[2]);
 
-            var n12 = new GraphNode(12, false);
-            nodes.Add(n12);
+                GraphNode node1, node2;
 
-            var n13 = new GraphNode(13, false);
-            nodes.Add(n13);
+                var result1 = nodes.TryGetValue(node1Index, out node1);
+                if(!result1)
+                {
+                    nodes[node1Index] = node1 = new GraphNode(node1Index, node1Index == 0);
+                }
 
-            var n14 = new GraphNode(14, false);
-            nodes.Add(n14);
+                var result2 = nodes.TryGetValue(node2Index, out node2);
+                if (!result2)
+                {
+                    nodes[node2Index] = node2 = new GraphNode(node2Index, node2Index == 0);
+                }
 
-            var n15 = new GraphNode(15, false);
-            nodes.Add(n15);
+                node1.addNeighbour(node2);
+            }
 
-            var n16 = new GraphNode(16, false);
-            nodes.Add(n16);
-
-            var n17 = new GraphNode(17, false);
-            nodes.Add(n17);
-
-            var n18 = new GraphNode(18, false);
-            nodes.Add(n18);
-
-            n1.addNeighbour(n2);
-            n1.addNeighbour(n3);
-            
-
-            n2.addNeighbour(n5);
-            n2.addNeighbour(n4);
-            n2.addNeighbour(n11);
-
-            n3.addNeighbour(n6);
-            n3.addNeighbour(n7);
-            n3.addNeighbour(n14);
-
-            n4.addNeighbour(n5);
-            n4.addNeighbour(n6);
-            n4.addNeighbour(n8);
-            n4.addNeighbour(n16);
-            n4.addNeighbour(n17);
-
-            n6.addNeighbour(n7);
-            n6.addNeighbour(n9);
-            n6.addNeighbour(n17);
-            n6.addNeighbour(n18);
-
-
-
-            n8.addNeighbour(n9);
-
-            n8.addNeighbour(n13);
-
-            n9.addNeighbour(n4);
-
-            n10.addNeighbour(n11);
-            n10.addNeighbour(n13);
-
-            n11.addNeighbour(n12);
-
-            n15.addNeighbour(n17);
-            n15.addNeighbour(n18);
-
-            return nodes;
+            return nodes.Values;
         }
 
         public static void printoutSequenceOfMessages(Chromosome chromosome)
         {
-
             List<GraphNode> nodes = chromosome.Genes.Select<Gene, GraphNode>((g) => ((GraphNode)g.ObjectValue)).ToList();
             List<GraphNode> withMessage = new List<GraphNode>();
             List<GraphNode> withoutMessage = new List<GraphNode>();
@@ -189,6 +132,7 @@ namespace ISK
                     withoutMessage.Add(node);
                 }
             }
+
             var rounds = 0;
             while (withoutMessage.Count > 0)
             {
@@ -256,11 +200,9 @@ namespace ISK
             return (rounds>0)?((double)1/rounds):1; //fitness value must be between 0 and 1, so here max fitness is 1 when doing everything in one round, getting lower with more rounds.
         }
 
-
         public static bool Terminate(Population population, int currentGeneration, long currentEvaluation)
         {
             return currentGeneration > 400;
         }
-
     }
 }

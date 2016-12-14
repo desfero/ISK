@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ISK
 {
- 
-    class GraphNode:IComparable<GraphNode>
+    class GraphNode: IComparable<GraphNode>
     {
         private int id;
         public List<GraphNode> neighbours;
-        private Boolean startNode;
-
+        private bool startNode;
 
         public GraphNode(int id, Boolean isStartNode)
         {
@@ -21,7 +19,7 @@ namespace ISK
             this.neighbours = new List<GraphNode>();
         }
 
-        public Boolean StartNode
+        public bool StartNode
         {
             get { return startNode; }
             set { /*not implemented*/}

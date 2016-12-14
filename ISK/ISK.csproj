@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="City.cs" />
     <Compile Include="CustomCrossoverType.cs" />
     <Compile Include="GraphNode.cs" />
     <Compile Include="CustomCrossoverOperator.cs" />
@@ -57,6 +56,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Generator\EdgeGraphDataGenerator.jar" />
+    <Content Include="Graphs\Graph_100_50.txt" />
+    <Content Include="Graphs\Graph_10_30.txt" />
+    <Content Include="Graphs\Graph_50_60.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
