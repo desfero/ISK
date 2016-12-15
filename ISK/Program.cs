@@ -15,9 +15,9 @@ namespace ISK
 
         private static void Main(string[] args)
         {
-            FilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Results/", DateTime.Now.ToString("dd-hh-mm-ss") + ".txt");
+            FilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Results/", "test5.txt");
 
-            const int populationSize = 150;
+            const int populationSize = 100;
 
             //get our nodes
             var nodes = CreateNodes();
@@ -41,7 +41,7 @@ namespace ISK
             }
 
             //create the elite operator
-            var elite = new Elite(5);
+            var elite = new Elite(3);
 
             //create the crossover operator
             //var crossover = new Crossover(0.8)
@@ -51,10 +51,10 @@ namespace ISK
 
             var crossover = new CustomCrossoverOperator()
             {
-                CrossoverType = CustomCrossoverType.MX1
+                CrossoverType = CustomCrossoverType.PMX
             };
             //create the mutation operator
-            var mutate = new SwapMutate(0.06);
+            var mutate = new SwapMutate(0.05);
 
             //create the GA
             var ga = new GeneticAlgorithm(population, CalculateFitness);
@@ -66,7 +66,7 @@ namespace ISK
             //add the operators
             ga.Operators.Add(elite);
             ga.Operators.Add(crossover);
-            ga.Operators.Add(mutate);
+            //ga.Operators.Add(mutate);
 
             //run the GA
             ga.Run(Terminate);
