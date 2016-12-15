@@ -44,17 +44,17 @@ namespace ISK
             var elite = new Elite(5);
 
             //create the crossover operator
-            var crossover = new Crossover(0.8)
-            {
-                CrossoverType = CrossoverType.DoublePointOrdered
-            };
-
-            //var crossover = new CustomCrossoverOperator()
+            //var crossover = new Crossover(0.8)
             //{
-            //    CrossoverType = CustomCrossoverType.MX2
+            //    CrossoverType = CrossoverType.DoublePointOrdered
             //};
+
+            var crossover = new CustomCrossoverOperator()
+            {
+                CrossoverType = CustomCrossoverType.MX1
+            };
             //create the mutation operator
-            var mutate = new SwapMutate(0.04);
+            var mutate = new SwapMutate(0.06);
 
             //create the GA
             var ga = new GeneticAlgorithm(population, CalculateFitness);
@@ -146,7 +146,7 @@ namespace ISK
             {
                 List<GraphNode> receiving = new List<GraphNode>();
                 rounds++;
-                //withoutMessage.Sort();
+                withoutMessage.Sort();
                 Write(String.Format("Round {0}, fight!", rounds));
                 foreach (GraphNode sender in withMessage)
                 {
@@ -194,7 +194,7 @@ namespace ISK
             {
                 List<GraphNode> receiving = new List<GraphNode>();
                 rounds++;
-                //withoutMessage.Sort();
+                withoutMessage.Sort();
                 foreach (GraphNode sender in withMessage)
                 {
                     foreach (GraphNode receiver in withoutMessage)

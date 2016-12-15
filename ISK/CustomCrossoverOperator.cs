@@ -12,31 +12,14 @@ namespace ISK
         
         private int replacementRate;
 
+        private bool enabled;
+
         private CustomCrossoverType crossoverType;
         
-
-        public int ReplacementRate
-        {
-            get
-            {
-                return replacementRate;
-            }
-
-            set
-            {
-                if (replacementRate < 0) {
-                    replacementRate = 0;
-                }
-                if (replacementRate > 1)
-                {
-                    replacementRate = 1;
-                }
-                replacementRate = value;
-            }
-        }
         
         public void Invoke(Population currentPopulation, ref Population newPopulation, FitnessFunction fitnesFunctionDelegate)
         {
+            int eliteCount = 0;
             if (currentPopulation.Solutions == null || currentPopulation.Solutions.Count == 0)
             {
                 throw new ArgumentException("There are no Solutions in the current Population.");
@@ -46,7 +29,14 @@ namespace ISK
             {
                 newPopulation = currentPopulation.CreateEmptyCopy();
             }
-            int childAmount = (newPopulation.PopulationSize - newPopulation.PopulationSize) * replacementRate / 100;
+            var elites = currentPopulation.GetElites();
+            eliteCount = elites.Count();
+            if (elites != null && eliteCount > 0)
+            {
+                newPopulation.Solutions.AddRange(elites);
+            }
+
+            int childAmount = (currentPopulation.PopulationSize - newPopulation.PopulationSize);
             for (var i = 0; i < childAmount; i++){
                 newPopulation.Solutions.Add(generateChild(currentPopulation));
             }
@@ -74,9 +64,10 @@ namespace ISK
                     getChildMX2(child, firstGeneSet, secondGeneSet, geneCount);
                     break;
                 case CustomCrossoverType.CX:
-                    getChildPMX(child, firstGeneSet, secondGeneSet, geneCount);
+                    
                     break;
                 case CustomCrossoverType.PMX:
+                    getChildPMX(child, firstGeneSet, secondGeneSet, geneCount);
                     break;
             }
             
@@ -156,7 +147,7 @@ namespace ISK
             list[index2] = temp;
         }
 
-        public bool Enabled { get; set; }
+        public bool Enabled { get { return enabled; } set { enabled = value; } }
 
         public CustomCrossoverType CrossoverType
         {
@@ -168,6 +159,7 @@ namespace ISK
             set
             {
                 crossoverType = value;
+                enabled = true;
             }
         }
     }
