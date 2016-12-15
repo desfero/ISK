@@ -1,4 +1,0 @@
-Generation: 1, Fitness: 0.142857142857143
-Generation: 2, Fitness: 0.142857142857143
-Generation: 3, Fitness: 0.142857142857143
-Generation: 4, Fitness: 0.142857142857143

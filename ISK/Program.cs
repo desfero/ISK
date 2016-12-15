@@ -17,7 +17,7 @@ namespace ISK
         {
             FilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Results/", DateTime.Now.ToString("dd-hh-mm-ss") + ".txt");
 
-            const int populationSize = 100;
+            const int populationSize = 150;
 
             //get our nodes
             var nodes = CreateNodes();
@@ -49,8 +49,12 @@ namespace ISK
                 CrossoverType = CrossoverType.DoublePointOrdered
             };
 
+            //var crossover = new CustomCrossoverOperator()
+            //{
+            //    CrossoverType = CustomCrossoverType.MX2
+            //};
             //create the mutation operator
-            var mutate = new SwapMutate(0.02);
+            var mutate = new SwapMutate(0.04);
 
             //create the GA
             var ga = new GeneticAlgorithm(population, CalculateFitness);
@@ -89,29 +93,29 @@ namespace ISK
 
         private static IEnumerable<GraphNode> CreateNodes()
         {
-            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_100_10.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/graf.txt");
 
             // Skip first line
             var lines = File.ReadLines(path).Skip(1).ToList();
             var nodes = new Dictionary<int, GraphNode>();
 
-            foreach (var line in lines.Skip(1))
+            foreach (var line in lines)
             {
-                var node1Index = int.Parse(line.Split(' ')[1]);
-                var node2Index = int.Parse(line.Split(' ')[2]);
+                var node1Index = int.Parse(line.Split('\t')[1]);
+                var node2Index = int.Parse(line.Split('\t')[2]);
 
                 GraphNode node1, node2;
 
                 var result1 = nodes.TryGetValue(node1Index, out node1);
                 if(!result1)
                 {
-                    nodes[node1Index] = node1 = new GraphNode(node1Index, node1Index == 0);
+                    nodes[node1Index] = node1 = new GraphNode(node1Index, node1Index == 1);
                 }
 
                 var result2 = nodes.TryGetValue(node2Index, out node2);
                 if (!result2)
                 {
-                    nodes[node2Index] = node2 = new GraphNode(node2Index, node2Index == 0);
+                    nodes[node2Index] = node2 = new GraphNode(node2Index, node2Index == 1);
                 }
 
                 node1.addNeighbour(node2);
@@ -142,8 +146,7 @@ namespace ISK
             {
                 List<GraphNode> receiving = new List<GraphNode>();
                 rounds++;
-                withoutMessage.Sort();
-                withoutMessage.Reverse(); ///// ??? got confused, not sure if needed
+                //withoutMessage.Sort();
                 Write(String.Format("Round {0}, fight!", rounds));
                 foreach (GraphNode sender in withMessage)
                 {
@@ -191,8 +194,7 @@ namespace ISK
             {
                 List<GraphNode> receiving = new List<GraphNode>();
                 rounds++;
-                withoutMessage.Sort();
-                withoutMessage.Reverse(); ///// ??? got confused, not sure if needed
+                //withoutMessage.Sort();
                 foreach (GraphNode sender in withMessage)
                 {
                     foreach (GraphNode receiver in withoutMessage)
@@ -212,7 +214,7 @@ namespace ISK
 
         public static bool Terminate(Population population, int currentGeneration, long currentEvaluation)
         {
-            return currentGeneration > 400;
+            return currentGeneration > 100;
         }
     }
 }

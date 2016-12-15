@@ -59,10 +59,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Generator\EdgeGraphDataGenerator.jar" />
+    <Content Include="Graphs\graf.txt" />
     <Content Include="Graphs\Graph_100_10.txt" />
     <Content Include="Graphs\Graph_100_50.txt" />
     <Content Include="Graphs\Graph_10_30.txt" />
+    <Content Include="Graphs\Graph_200_2.txt" />
+    <Content Include="Graphs\Graph_200_3.txt" />
+    <Content Include="Graphs\Graph_400_3.txt" />
     <Content Include="Graphs\Graph_500_70.txt" />
+    <Content Include="Graphs\Graph_50_4.txt" />
+    <Content Include="Graphs\Graph_50_5.txt" />
     <Content Include="Graphs\Graph_50_60.txt" />
   </ItemGroup>
   <ItemGroup>
