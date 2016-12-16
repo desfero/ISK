@@ -100,7 +100,7 @@ namespace ISK
 
         private void getChildMX2(Chromosome child, List<Gene> firstGeneSet, List<Gene> secondGeneSet, int geneCount)
         {
-            while(child.Count < geneCount)
+            for (var i = 0; i < geneCount; i++)
             {
                 var firstNode = firstGeneSet.Count > 0?(GraphNode)firstGeneSet[0].ObjectValue:null;
                 var secondNode = secondGeneSet.Count>0?(GraphNode)secondGeneSet[0].ObjectValue:null;
@@ -120,7 +120,7 @@ namespace ISK
             child.Add(chosenGeneSet[0]);
             chosenGeneSet.RemoveAt(0);
             var removeIndex = notChosenGeneSet.FindIndex((g) => ((GraphNode)g.ObjectValue).GetHashCode() == chosenNode.GetHashCode());
-            notChosenGeneSet.RemoveAt(0);
+            notChosenGeneSet.RemoveAt(removeIndex);
         }
 
         private void getChildPMX(Chromosome child, List<Gene> firstGeneSet, List<Gene> secondGeneSet, int geneCount)
