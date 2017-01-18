@@ -15,9 +15,9 @@ namespace ISK
 
         private static void Main(string[] args)
         {
-            FilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Results/", "test5.txt");
+            FilePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Results/", "population3.txt");
 
-            const int populationSize = 100;
+            const int populationSize = 50;
 
             //get our nodes
             var nodes = CreateNodes();
@@ -41,17 +41,17 @@ namespace ISK
             }
 
             //create the elite operator
-            var elite = new Elite(3);
+            var elite = new Elite(5);
 
             //create the crossover operator
-            //var crossover = new Crossover(0.8)
+            //var crossover = new Crossover(1)
             //{
             //    CrossoverType = CrossoverType.DoublePointOrdered
             //};
 
             var crossover = new CustomCrossoverOperator()
             {
-                CrossoverType = CustomCrossoverType.PMX
+                CrossoverType = CustomCrossoverType.MX1
             };
             //create the mutation operator
             var mutate = new SwapMutate(0.05);
@@ -66,7 +66,7 @@ namespace ISK
             //add the operators
             ga.Operators.Add(elite);
             ga.Operators.Add(crossover);
-            //ga.Operators.Add(mutate);
+            ga.Operators.Add(mutate);
 
             //run the GA
             ga.Run(Terminate);
@@ -91,36 +91,71 @@ namespace ISK
             Write(String.Format("Generation: {0}, Fitness: {1}", e.Generation, fittest.Fitness));
         }
 
+        private static void connectNode(GraphNode node, Dictionary<int, GraphNode> connected)
+        {
+            foreach(GraphNode neighbour in node.neighbours)
+            {
+                if (!connected.ContainsKey(neighbour.Id))
+                {
+                    connected[neighbour.Id] = neighbour;
+                    connectNode(neighbour,connected);
+                }
+            }
+        }
+        
         private static IEnumerable<GraphNode> CreateNodes()
         {
-            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/graf.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"../../Graphs/Graph_100_10(20,30,20,30).txt");
 
             // Skip first line
             var lines = File.ReadLines(path).Skip(1).ToList();
             var nodes = new Dictionary<int, GraphNode>();
-
+            var connected = new Dictionary<int, GraphNode>();
+            
             foreach (var line in lines)
             {
-                var node1Index = int.Parse(line.Split('\t')[1]);
-                var node2Index = int.Parse(line.Split('\t')[2]);
+                var node1Index = int.Parse(line.Split(null)[1]);
+                var node2Index = int.Parse(line.Split(null)[2]);
 
                 GraphNode node1, node2;
 
                 var result1 = nodes.TryGetValue(node1Index, out node1);
                 if(!result1)
                 {
-                    nodes[node1Index] = node1 = new GraphNode(node1Index, node1Index == 1);
+                    nodes[node1Index] = node1 = new GraphNode(node1Index, node1Index == 0);
+                    if(node1Index == 0)
+                    {
+                        connected[node1Index] = node1;
+                    }
                 }
 
                 var result2 = nodes.TryGetValue(node2Index, out node2);
                 if (!result2)
                 {
-                    nodes[node2Index] = node2 = new GraphNode(node2Index, node2Index == 1);
+                    nodes[node2Index] = node2 = new GraphNode(node2Index, node2Index == 0);
+                    if (node2Index == 0)
+                    {
+                        connected[node1Index] = node1;
+                    }
+                }
+                if (connected.ContainsKey(node1Index) && !connected.ContainsKey(node2Index)) {
+                    connected[node2Index] = node2;
+                    connectNode(node2, connected);
+                }
+                if (connected.ContainsKey(node2Index) && !connected.ContainsKey(node1Index)) {
+                    connected[node1Index] = node1;
+                    connectNode(node1, connected);
                 }
 
                 node1.addNeighbour(node2);
             }
-
+            foreach (int key in nodes.Keys)
+            {
+                if (!connected.ContainsKey(key))
+                {
+                    Console.WriteLine("NONCONNECTED {0}",key);
+                }
+            }
             return nodes.Values;
         }
 
@@ -146,7 +181,7 @@ namespace ISK
             {
                 List<GraphNode> receiving = new List<GraphNode>();
                 rounds++;
-                withoutMessage.Sort();
+                withoutMessage.Reverse();
                 Write(String.Format("Round {0}, fight!", rounds));
                 foreach (GraphNode sender in withMessage)
                 {
@@ -194,7 +229,7 @@ namespace ISK
             {
                 List<GraphNode> receiving = new List<GraphNode>();
                 rounds++;
-                withoutMessage.Sort();
+                withoutMessage.Reverse();
                 foreach (GraphNode sender in withMessage)
                 {
                     foreach (GraphNode receiver in withoutMessage)

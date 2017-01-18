@@ -1,0 +1,416 @@
+Generation: 1, Fitness: 0,0625
+Generation: 2, Fitness: 0,0625
+Generation: 3, Fitness: 0,0625
+Generation: 4, Fitness: 0,0625
+Generation: 5, Fitness: 0,0625
+Generation: 6, Fitness: 0,0625
+Generation: 7, Fitness: 0,0625
+Generation: 8, Fitness: 0,0625
+Generation: 9, Fitness: 0,0625
+Generation: 10, Fitness: 0,0625
+Generation: 11, Fitness: 0,0625
+Generation: 12, Fitness: 0,0625
+Generation: 13, Fitness: 0,0625
+Generation: 14, Fitness: 0,0625
+Generation: 15, Fitness: 0,0666666666666667
+Generation: 16, Fitness: 0,0666666666666667
+Generation: 17, Fitness: 0,0666666666666667
+Generation: 18, Fitness: 0,0666666666666667
+Generation: 19, Fitness: 0,0666666666666667
+Generation: 20, Fitness: 0,0666666666666667
+Generation: 21, Fitness: 0,0666666666666667
+Generation: 22, Fitness: 0,0666666666666667
+Generation: 23, Fitness: 0,0666666666666667
+Generation: 24, Fitness: 0,0666666666666667
+Generation: 25, Fitness: 0,0666666666666667
+Generation: 26, Fitness: 0,0666666666666667
+Generation: 27, Fitness: 0,0666666666666667
+Generation: 28, Fitness: 0,0666666666666667
+Generation: 29, Fitness: 0,0666666666666667
+Generation: 30, Fitness: 0,0666666666666667
+Generation: 31, Fitness: 0,0666666666666667
+Generation: 32, Fitness: 0,0666666666666667
+Generation: 33, Fitness: 0,0666666666666667
+Generation: 34, Fitness: 0,0666666666666667
+Generation: 35, Fitness: 0,0666666666666667
+Generation: 36, Fitness: 0,0666666666666667
+Generation: 37, Fitness: 0,0666666666666667
+Generation: 38, Fitness: 0,0666666666666667
+Generation: 39, Fitness: 0,0666666666666667
+Generation: 40, Fitness: 0,0666666666666667
+Generation: 41, Fitness: 0,0666666666666667
+Generation: 42, Fitness: 0,0666666666666667
+Generation: 43, Fitness: 0,0666666666666667
+Generation: 44, Fitness: 0,0666666666666667
+Generation: 45, Fitness: 0,0666666666666667
+Generation: 46, Fitness: 0,0666666666666667
+Generation: 47, Fitness: 0,0666666666666667
+Generation: 48, Fitness: 0,0666666666666667
+Generation: 49, Fitness: 0,0666666666666667
+Generation: 50, Fitness: 0,0666666666666667
+Generation: 51, Fitness: 0,0666666666666667
+Generation: 52, Fitness: 0,0666666666666667
+Generation: 53, Fitness: 0,0666666666666667
+Generation: 54, Fitness: 0,0666666666666667
+Generation: 55, Fitness: 0,0666666666666667
+Generation: 56, Fitness: 0,0666666666666667
+Generation: 57, Fitness: 0,0666666666666667
+Generation: 58, Fitness: 0,0666666666666667
+Generation: 59, Fitness: 0,0666666666666667
+Generation: 60, Fitness: 0,0666666666666667
+Generation: 61, Fitness: 0,0666666666666667
+Generation: 62, Fitness: 0,0666666666666667
+Generation: 63, Fitness: 0,0666666666666667
+Generation: 64, Fitness: 0,0666666666666667
+Generation: 65, Fitness: 0,0666666666666667
+Generation: 66, Fitness: 0,0666666666666667
+Generation: 67, Fitness: 0,0666666666666667
+Generation: 68, Fitness: 0,0666666666666667
+Generation: 69, Fitness: 0,0666666666666667
+Generation: 70, Fitness: 0,0666666666666667
+Generation: 71, Fitness: 0,0666666666666667
+Generation: 72, Fitness: 0,0666666666666667
+Generation: 73, Fitness: 0,0666666666666667
+Generation: 74, Fitness: 0,0666666666666667
+Generation: 75, Fitness: 0,0666666666666667
+Generation: 76, Fitness: 0,0666666666666667
+Generation: 77, Fitness: 0,0666666666666667
+Generation: 78, Fitness: 0,0666666666666667
+Generation: 79, Fitness: 0,0666666666666667
+Generation: 80, Fitness: 0,0666666666666667
+Generation: 81, Fitness: 0,0666666666666667
+Generation: 82, Fitness: 0,0666666666666667
+Generation: 83, Fitness: 0,0666666666666667
+Generation: 84, Fitness: 0,0666666666666667
+Generation: 85, Fitness: 0,0666666666666667
+Generation: 86, Fitness: 0,0666666666666667
+Generation: 87, Fitness: 0,0666666666666667
+Generation: 88, Fitness: 0,0666666666666667
+Generation: 89, Fitness: 0,0666666666666667
+Generation: 90, Fitness: 0,0666666666666667
+Generation: 91, Fitness: 0,0666666666666667
+Generation: 92, Fitness: 0,0666666666666667
+Generation: 93, Fitness: 0,0666666666666667
+Generation: 94, Fitness: 0,0666666666666667
+Generation: 95, Fitness: 0,0666666666666667
+Generation: 96, Fitness: 0,0666666666666667
+Generation: 97, Fitness: 0,0666666666666667
+Generation: 98, Fitness: 0,0666666666666667
+Generation: 99, Fitness: 0,0666666666666667
+Generation: 100, Fitness: 0,0666666666666667
+Generation: 101, Fitness: 0,0666666666666667
+61
+131
+54
+79
+4
+123
+141
+84
+6
+23
+143
+18
+50
+119
+27
+148
+49
+34
+30
+81
+77
+7
+26
+117
+147
+125
+12
+29
+73
+76
+140
+1
+24
+114
+14
+22
+41
+150
+113
+8
+149
+120
+56
+91
+5
+102
+104
+43
+52
+92
+83
+38
+112
+67
+35
+31
+17
+89
+45
+32
+96
+132
+58
+66
+122
+129
+62
+97
+139
+127
+86
+82
+53
+106
+88
+95
+107
+13
+126
+94
+40
+145
+116
+33
+146
+124
+48
+133
+93
+3
+60
+128
+65
+25
+110
+21
+90
+130
+10
+142
+70
+51
+74
+16
+75
+20
+80
+47
+87
+103
+138
+109
+28
+19
+105
+144
+101
+121
+42
+15
+39
+100
+36
+46
+2
+108
+64
+37
+111
+78
+63
+118
+44
+69
+115
+59
+136
+71
+11
+137
+85
+99
+9
+72
+57
+98
+134
+55
+68
+135
+SendingSequence:
+Round 1, fight!
+1 sends to 17,
+Round 2, fight!
+1 sends to 10,
+17 sends to 13,
+Round 3, fight!
+1 sends to 42,
+17 sends to 48,
+10 sends to 4,
+13 sends to 23,
+Round 4, fight!
+1 sends to 2,
+17 sends to 21,
+10 sends to 14,
+13 sends to 12,
+42 sends to 26,
+4 sends to 18,
+23 sends to 6,
+Round 5, fight!
+17 sends to 44,
+10 sends to 33,
+42 sends to 38,
+4 sends to 35,
+23 sends to 32,
+2 sends to 29,
+21 sends to 15,
+14 sends to 34,
+12 sends to 49,
+26 sends to 43,
+18 sends to 50,
+6 sends to 8,
+Round 6, fight!
+42 sends to 9,
+2 sends to 5,
+14 sends to 7,
+12 sends to 41,
+26 sends to 36,
+6 sends to 45,
+33 sends to 24,
+35 sends to 16,
+29 sends to 30,
+49 sends to 28,
+43 sends to 147,
+50 sends to 46,
+8 sends to 80,
+Round 7, fight!
+14 sends to 25,
+26 sends to 37,
+6 sends to 19,
+50 sends to 11,
+7 sends to 31,
+41 sends to 27,
+16 sends to 22,
+28 sends to 97,
+147 sends to 122,
+80 sends to 79,
+Round 8, fight!
+41 sends to 39,
+37 sends to 3,
+31 sends to 20,
+22 sends to 47,
+97 sends to 72,
+122 sends to 131,
+79 sends to 52,
+Round 9, fight!
+122 sends to 116,
+79 sends to 86,
+39 sends to 40,
+72 sends to 81,
+131 sends to 125,
+52 sends to 66,
+Round 10, fight!
+79 sends to 88,
+131 sends to 120,
+52 sends to 94,
+116 sends to 102,
+86 sends to 76,
+81 sends to 96,
+125 sends to 114,
+66 sends to 85,
+Round 11, fight!
+79 sends to 74,
+131 sends to 107,
+52 sends to 51,
+116 sends to 135,
+86 sends to 82,
+81 sends to 70,
+88 sends to 92,
+120 sends to 127,
+94 sends to 67,
+102 sends to 129,
+76 sends to 93,
+96 sends to 100,
+114 sends to 132,
+85 sends to 54,
+Round 12, fight!
+131 sends to 146,
+52 sends to 55,
+86 sends to 59,
+81 sends to 75,
+94 sends to 64,
+102 sends to 105,
+76 sends to 87,
+114 sends to 110,
+85 sends to 65,
+74 sends to 83,
+107 sends to 145,
+51 sends to 60,
+135 sends to 104,
+82 sends to 73,
+70 sends to 77,
+92 sends to 98,
+127 sends to 141,
+67 sends to 63,
+129 sends to 124,
+93 sends to 140,
+100 sends to 61,
+132 sends to 123,
+54 sends to 68,
+Round 13, fight!
+81 sends to 57,
+102 sends to 144,
+114 sends to 134,
+107 sends to 111,
+135 sends to 115,
+67 sends to 71,
+129 sends to 130,
+100 sends to 95,
+132 sends to 126,
+146 sends to 150,
+64 sends to 84,
+87 sends to 56,
+110 sends to 117,
+145 sends to 149,
+104 sends to 118,
+77 sends to 91,
+141 sends to 112,
+63 sends to 62,
+124 sends to 133,
+140 sends to 139,
+61 sends to 53,
+123 sends to 113,
+Round 14, fight!
+102 sends to 101,
+129 sends to 138,
+132 sends to 136,
+145 sends to 106,
+123 sends to 109,
+111 sends to 103,
+115 sends to 121,
+95 sends to 99,
+126 sends to 143,
+56 sends to 58,
+117 sends to 148,
+149 sends to 119,
+91 sends to 89,
+Round 15, fight!
+126 sends to 142,
+56 sends to 69,
+149 sends to 128,
+106 sends to 108,
+103 sends to 137,
+99 sends to 78,
+89 sends to 90,
